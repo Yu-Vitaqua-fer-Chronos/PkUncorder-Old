@@ -1,0 +1,5 @@
+{
+  "base_url": "A PROVIDER THAT CAN HOST THE FILES WITH THE UNMODIFIED FILE URLS SHOULD GO HERE! WE USED GITHUB AND THE RAW URL! Example is `https://github.com/YOUR_USERNAME/YOUR_PUBLIC_GITHUB_URL/raw/master/`https://github.com/YOUR_USERNAME/YOUR_PUBLIC_GITHUB_URL/raw/master/x`https://github.com/YOUR_USERNAME/YOUR_PUBLIC_GITHUB_URL/raw/master/`",
+  "output_folder": "avatars",
+  "urls_only": false
+}

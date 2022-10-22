@@ -1,0 +1,3 @@
+attd
+requests
+Pillow
