@@ -36,7 +36,11 @@ except FileNotFoundError:
 if len(f"{base_url}/00000000-0000-0000-0000-000000000000.png") > MAX_URL_CHARS:
   raise SystemExit("The base URL is too long!")
 
-avatars = {}
+try:
+  with open(f"{output_folder}/index.json") as f:
+    avatars = json.load(f)
+except FileNotFoundError:
+  avatars = {}
 
 nextMember = 0
 
